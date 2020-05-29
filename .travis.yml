@@ -8,6 +8,8 @@ cache:
   directories:
     - ./node_modules
 install:
+  - npm install -g @angular/cli
+  - npm install -g nativescript
   - npm install
 script:
   - npm run lint

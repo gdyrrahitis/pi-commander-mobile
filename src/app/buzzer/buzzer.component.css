@@ -1,0 +1,23 @@
+.buzzer-button {
+    android-elevation: 4;
+    background-color: lightseagreen;
+    border-color: darkolivegreen;
+    border-radius: 80;
+    width: 160;
+    height: 160;
+    color: whitesmoke;
+    font-size: 18;
+    font-weight: bold;
+}
+    
+.buzzer-button:active {
+    android-elevation: 8;
+    background-color: whitesmoke;
+    border-color: darkolivegreen;
+    border-radius: 80;
+    color: lightseagreen;
+    font-size: 18;
+    font-weight: bold;
+    width: 160;
+    height: 160;
+}

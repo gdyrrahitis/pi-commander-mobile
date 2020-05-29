@@ -37,7 +37,7 @@ To run the application execute the `npm run android` command.
 ## CI
 Application build is on Travis CI.
 
-TODO: URL + badge on top
+Travis builds can be found here: https://travis-ci.org/github/gdyrrahitis/pi-commander-mobile
 
 ## Microservices
 The raspberry pi device(s) is/are awaiting for commands, which come in form of messages. I'm using RabbitMQ to publish commands to the consumers, which are daemons running on the raspberry pi device(s).

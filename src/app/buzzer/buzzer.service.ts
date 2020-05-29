@@ -6,13 +6,13 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 })
 export class BuzzerService {
 	// TODO: Add Heroku URL
-	private buzzerServiceUrl = "";
+	private buzzerServiceUrl = "https://pi-commander-microservice.herokuapp.com/buzzer";
 
 	constructor(private http: HttpClient) { }
 
 	postBuzzerCommand() {
 		let options = this.createRequestOptions();
-		return this.http.post(this.buzzerServiceUrl, { "buzzer_on": true }, { headers: options });
+		return this.http.post(this.buzzerServiceUrl, { "turn_on": true }, { headers: options });
 	}
 
     private createRequestOptions() {

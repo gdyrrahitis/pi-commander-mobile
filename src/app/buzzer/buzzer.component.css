@@ -21,3 +21,10 @@
     width: 160;
     height: 160;
 }
+
+.error {
+    background-color: orangered;
+    border-color: darkred;
+    color: whitesmoke;
+    border-width: 10;
+}

@@ -12,7 +12,7 @@ export class BuzzerService {
 
 	postBuzzerCommand() {
 		let options = this.createRequestOptions();
-		return this.http.post(this.buzzerServiceUrl, { "turn_on": true }, { headers: options });
+		return this.http.post(this.buzzerServiceUrl, { "turn_on": true, "duration": 1 }, { headers: options });
 	}
 
     private createRequestOptions() {
